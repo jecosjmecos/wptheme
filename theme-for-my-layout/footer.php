@@ -19,6 +19,11 @@
 // ] );
  ?>
 
+<!-- <footer itemscope itemtype="http://schema.org/WPFooter">
+	<meta itemprop="copyrightYear" content="<?php echo date("Y"); ?>">
+	<meta itemprop="copyrightHolder" content="<?php bloginfo('name') ?>">
+</footer> -->
+
 <?php wp_footer(); ?>
 
 </body>
