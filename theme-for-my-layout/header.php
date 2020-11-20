@@ -15,6 +15,22 @@
     <link rel="icon" type="image/png" href="<?php bloginfo('template_url') ?>/assets/images/favicon-120x120.png" sizes="120x120" />
     <link rel="icon" type="image/png" href="<?php bloginfo('template_url') ?>/assets/images/favicon-194x194.png" sizes="180x180" /> -->
 
+    <!--windows-->
+    <!-- <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="application-name" content="1Perevod">
+    <meta name="msapplication-tooltip" content="Название" />
+    <meta name="msapplication-TileImage" content="<?php bloginfo('template_url') ?>/assets/images/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="<?php bloginfo('template_url') ?>/assets/images/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="<?php bloginfo('template_url') ?>/assets/images/mstile-150x150">
+    <meta name="msapplication-wide310x150logo" content="<?php bloginfo('template_url') ?>/assets/images/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="<?php bloginfo('template_url') ?>/assets/images/mstile-310x310">
+
+    <meta name="theme-color" content="#ff5024" />
+
+    <link rel="mask-icon" href="<?php bloginfo('template_url') ?>/assets/images/safari-pinned-tab.svg" color="#fd5910">
+
+    <link rel="manifest" href="<?php bloginfo('template_url') ?>/web-manifest.json"> -->
+
 	<script src="https://kit.fontawesome.com/52fa4440e2.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>

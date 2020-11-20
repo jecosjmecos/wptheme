@@ -1,0 +1,8 @@
+{
+    "name": "Site",
+    "description": "description",
+    "icons": [{
+        "src": "/img/icon64.png",
+        "sizes": "64x64"
+    }]
+}
