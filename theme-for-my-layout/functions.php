@@ -34,6 +34,9 @@ remove_action( 'wp_head', 'start_post_rel_link', 10, 0 );
 remove_action( 'wp_head', 'adjacent_posts_rel_link', 10, 0 );
 remove_action( 'wp_head', 'profile_link' );
 remove_action( 'wp_head',  'rest_output_link_wp_head');
+remove_action( 'wp_head', 'wp_resource_hints', 2); // rel="dns-prefetch"
+remove_action ( 'wp_head', 'wp_shortlink_wp_head', 10, 0 ); // delete link rel="shortlink"
+remove_action('wp_head', 'rel_canonical'); // delete default canonical meta
 
 
 /*Общие настройки acf*/

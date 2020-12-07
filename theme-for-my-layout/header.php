@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<?php get_template_part('template-parts/content', 'metablock') ?>
+	<?php // get_template_part('template-parts/content', 'metablock') ?>
 	
 
     <!-- <link rel="icon" href="<?php bloginfo('template_url') ?>/assets/images/favicon.ico" type="image/x-icon" />
