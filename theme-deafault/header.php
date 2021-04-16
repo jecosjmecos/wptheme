@@ -1,16 +1,4 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package my_site
- */
-
-?>
-<!doctype html>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -21,38 +9,28 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'my-site' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$my_site_description = get_bloginfo( 'description', 'display' );
-			if ( $my_site_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $my_site_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+<?php 
+// wp_nav_menu( [
+// 	'theme_location'  => 'header-menu',
+// 	'menu'            => '', 
+// 	'container'       => 'div', 
+// 	'container_class' => '', 
+// 	'container_id'    => '',
+// 	'menu_class'      => 'menu', 
+// 	'menu_id'         => '',
+// 	'echo'            => true,
+// 	'fallback_cb'     => 'wp_page_menu',
+// 	'before'          => '',
+// 	'after'           => '',
+// 	'link_before'     => '',
+// 	'link_after'      => '',
+// 	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+// 	'depth'           => 0,
+// 	'walker'          => '',
+// ] );
+ ?>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'my-site' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+<!--  <a href="tel:<?php echo preg_replace('/[^0-9A-Za-z]/', '', get_field('field', 'options'))  ?>">
+ 	+00 (000) 000-00-00
+ </a> -->

@@ -34,3 +34,19 @@ remove_action( 'wp_head', 'profile_link' );
 remove_action( 'wp_head',  'rest_output_link_wp_head');
 
 
+/*Общие настройки acf*/
+// if( function_exists('acf_add_options_page') ) {
+	
+// 	acf_add_options_page(array(
+// 		'page_title' 	=> 'Общие настройки',
+// 		'menu_title'	=> 'Общие настройки',
+// 		'menu_slug' 	=> 'theme-general-settings',
+// 		'capability'	=> 'edit_posts',
+// 		'position' 		=> '4.5',
+// 		'update_button' => 'Обновить',
+// 		'redirect'		=> false
+// 	));
+	
+// }
+
+
