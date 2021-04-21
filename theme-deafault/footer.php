@@ -19,6 +19,15 @@
 // ] );
  ?>
 
+<?php 
+#Social field template
+//if(get_field('whatsapp')): ?>
+	<!-- <a href="<?php //the_field('whatsapp')) ?>">
+		<img src="<?php bloginfo('template_url') ?>/assets/images/w.svg" alt="whatsapp">
+	</a> -->
+<?php 
+//endif ?>
+
 <!-- <footer itemscope itemtype="http://schema.org/WPFooter">
 	<meta itemprop="copyrightYear" content="<?php echo date("Y"); ?>">
 	<meta itemprop="copyrightHolder" content="<?php bloginfo('name') ?>">

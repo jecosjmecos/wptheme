@@ -34,3 +34,13 @@
 <!--  <a href="tel:<?php echo preg_replace('/[^0-9A-Za-z]/', '', get_field('field', 'options'))  ?>">
  	+00 (000) 000-00-00
  </a> -->
+
+<?php 
+#Social field template
+//if(get_field('whatsapp')): ?>
+	<!-- <a href="<?php //the_field('whatsapp')) ?>">
+		<img src="<?php bloginfo('template_url') ?>/assets/images/w.svg" alt="whatsapp">
+	</a> -->
+<?php 
+//endif ?>
+
